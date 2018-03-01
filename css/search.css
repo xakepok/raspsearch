@@ -1,0 +1,50 @@
+.searchFrom, .searchTo, .searchWhen {
+    width: 175px;
+    background-color: antiquewhite;
+    border: 1px;
+    padding-left: 2px;
+}
+div.searchHint {
+    display: none;
+    margin-top: 0px;
+    max-height: 150px;
+    width: 200px;
+    padding-left: 4px;
+    overflow: auto;
+    position: absolute;
+    border: 1px solid black;
+    border-top: none;
+    background-color: antiquewhite;
+}
+.link {
+    color: #5e5bff;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.link:HOVER {
+    text-decoration: underline;
+}
+.search-div {
+    width: 150px;
+}
+.searchTable {
+    width: 100%;
+    border: none;
+    border-spacing: 0px;
+}
+.searchTd {
+    border: none;
+}
+.searchTdSubmit {
+    text-align: center;
+}
+.btnRasp {
+    width: 125px;
+    text-align: center;
+    font-weight: bold;
+}
+#errorSearch {
+    display: none;
+    color: #ff3a29;
+    font-size: 0.7em;
+}
