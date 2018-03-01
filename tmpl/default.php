@@ -56,7 +56,6 @@ if (JFactory::getUser()->authorise('core.manage', 'mod_raspsearch'))
                     </td>
                 </tr>
             </table>
-            <?php echo JHtml::_('form.token');?>
         </form>
     </div>
     <?php
