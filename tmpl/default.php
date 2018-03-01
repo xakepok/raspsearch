@@ -24,7 +24,7 @@ $dat = $input->getString('dat', date("Y-m-d"));
                 </td>
                 <td class="searchTd">
                     <div>
-                        <input class="searchFrom" onkeyup="searchStation(this);" type="text" id="searchFrom" name="from" value="<?php echo $from;?>">
+                        <input class="searchFrom" onkeyup="searchStation(this);" type="text" id="searchFrom" name="from" value="<?php echo $from;?>" autocomplete="off">
                         <input type="hidden" name="fromID" id="fromID" value="<?php echo $fromID;?>">
                     </div>
                     <div id="divFrom" class="searchHint"></div>
@@ -35,7 +35,7 @@ $dat = $input->getString('dat', date("Y-m-d"));
                     <?php echo JText::_('MOD_RASPSEARCH_FORM_TO');?>
                 </td>
                 <td class="searchTd">
-                    <input class="searchTo" onkeyup="searchStation(this);" type="text" id="searchTo" name="to" value="<?php echo $to;?>">
+                    <input class="searchTo" onkeyup="searchStation(this);" type="text" id="searchTo" name="to" value="<?php echo $to;?>" autocomplete="off">
                     <input type="hidden" name="toID" id="toID" value="<?php echo $toID;?>">
                     <div id="divTo" class="searchHint"></div>
                 </td>
