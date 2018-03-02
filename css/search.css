@@ -6,9 +6,9 @@
 }
 div.searchHint {
     display: none;
-    margin-top: 0px;
+    margin-top: -9px;
     max-height: 150px;
-    width: 180px;
+    width: 185px;
     padding-left: 4px;
     overflow: auto;
     position: absolute;

@@ -23,10 +23,7 @@ function searchStation(item) {
         {
             if (stations[i].stationName.toLowerCase().indexOf(item.value.toLowerCase()) > -1)
             {
-                var str = "<span class=\"link\" onclick=\"setStation('"+dir+"', '"+stations[i].stationID+"', '"+stations[i].stationName+"')\">"+stations[i].stationName;
-                if (stations[i].stationName.indexOf('вокзал') < 0) str += " ("+stations[i].directionName;
-                if (stations[i].directionName.indexOf('линия') < 0) str += " направление)"; else str += ")";
-                str += "</span>";
+                var str = "<span class=\"link\" onclick=\"setStation('"+dir+"', '"+stations[i].stationID+"', '"+stations[i].stationName+"')\">"+stations[i].stationName + "</span>";
                 res.push(str);
             }
         }
