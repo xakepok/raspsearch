@@ -35,6 +35,14 @@
 					filter="url"
 					validate="url"
 				/>
+				<field
+					name="show"
+					type="list"
+					label="MOD_RASPSEARCH_SETTINGS_DEBUG"
+					description="MOD_RASPSEARCH_SETTINGS_DEBUG_DESC">
+					<option value="0">MOD_RASPSEARCH_SETTINGS_SHOW_ADMIN</option>
+					<option value="1">MOD_RASPSEARCH_SETTINGS_SHOW_ALL</option>
+				</field>
 			</fieldset>
 			<fieldset
 					name="advanced">

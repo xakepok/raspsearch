@@ -14,6 +14,7 @@ $to = $input->getString('to', '');
 $fromID = $input->getInt('fromID', 0);
 $toID = $input->getInt('toID', 0);
 $dat = $input->getString('dat', date("Y-m-d"));
+if ($show || (!$show && JFactory::getUser()->authorise('core.manage', 'mod_raspsearch'))):
 ?>
 <div class="search-div">
     <form name="raspSearch" id="raspSearch" action="<?php echo $action;?>" method="get" onsubmit="return checkSearch()">
@@ -57,3 +58,4 @@ $dat = $input->getString('dat', date("Y-m-d"));
         </table>
     </form>
 </div>
+<?php endif;?>
